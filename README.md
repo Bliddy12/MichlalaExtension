@@ -27,4 +27,6 @@ Select **Load Unpack** and select the folder you extracted
 # Looks
 
 Extension preview:
+
+
 ![image](https://github.com/user-attachments/assets/d4378613-8c33-4b32-a2d6-96f49d3f792b)
