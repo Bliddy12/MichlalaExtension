@@ -23,6 +23,7 @@ chrome://extensions/
 ```
 Select **Load Unpack** and select the folder you extracted
 
+Thats it! open the extension in web, type you'r ID and Password, then click **Save** and you're good to go.
 
 # Looks
 
