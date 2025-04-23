@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Colman Auto Login",
+    "version": "1.0",
+    "author": "עידן שובל-סטודנט למדמח במכללה",
+    "description": "Automatically logs in to the Colman site.",
+    "permissions": ["tabs", "scripting","storage","activeTab"],
+    "options_page": "settings.html",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "colman2.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://is.colman.ac.il/*"
+    ],
+    "commands": {
+        "login": {
+            "suggested_key": {
+                "default": "Ctrl+M"
+            },
+            "description": "Log in using saved credentials"
+        }
+    }
+    
+}
